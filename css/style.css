@@ -73,7 +73,9 @@ a {
 }
 .main__section1 {
     width: 45rem;
-    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    height: 480px;
+    padding: 80px var(--PADDING-SIDE) 0px var(--PADDING-SIDE);
+    
     
 }
 
@@ -111,22 +113,38 @@ a {
 }
 
 .main__section2 {
+    height: 480px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     
-    padding: 20px 200px;
+    padding: 20px 0px 0px 215px;
 }
 
-.main__section2 p {
-    
-    z-index: 1;
-}
 
-.main__p3 img {
+.green_starbucks {
+    background-image: url(/img/green-starbucks.png);
     width: 320px;
     height: 480px;
+    background-size: 320px 480px;
+    background-repeat: no-repeat;
+}
+.pink_starbucks {
+    background-image: url(/img/pink-starbucks.png);
+    width: 320px;
+    height: 480px;
+    background-size: 250px 480px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+.caramel_starbucks {
+    background-image: url(/img/caramel-starbucks.png);
+    width: 320px;
+    height: 480px;
+    background-size: 350px 460px;
+    background-repeat: no-repeat;
+    margin-right: 270px;
 }
 
 .circle {
@@ -136,7 +154,51 @@ a {
     width: 80rem;
     border-radius: 50%;
     background-color: #00704A;
+    /* background-color: rgb(213, 0, 199);
+    background-color: rgb(190, 145, 63); */
     bottom: 0;
     right: 0;
     transform: translate(48%, 58%);
+    z-index: -1;
+}
+
+.main__menu_article {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main__menu_article div {
+    margin-top: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.main__menu_article div:hover {
+    
+    transition-duration: 0.5s;
+    transform: translateY(-15px);
+    /* margin-top: -15px; */
+}
+
+
+.green_cup img {
+    
+    width: 50px;
+    height: 75px;
+    
+    
+}
+.pink_cup img {
+    width: 40px;
+    height: 75px;
+    
+    
+}
+.caramel_cup img {
+    width: 60px;
+    height: 70px;
 }
