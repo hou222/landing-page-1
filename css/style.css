@@ -114,11 +114,11 @@ a {
 
 .main__section2 {
     height: 480px;
+    width: 550px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    
     padding: 20px 0px 0px 215px;
 }
 
@@ -144,7 +144,8 @@ a {
     height: 480px;
     background-size: 350px 460px;
     background-repeat: no-repeat;
-    margin-right: 270px;
+    
+    
 }
 
 .circle {
