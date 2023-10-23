@@ -47,7 +47,6 @@ body {
     list-style-type: none;
     display: flex;
     flex-flow: row nowrap;
-    
     justify-content: center;
     gap: 3rem;
     
@@ -72,11 +71,10 @@ a {
     display: flex;
 }
 .main__section1 {
-    width: 45rem;
+    /* width: 45rem; */
+    width: 48%;
     height: 480px;
     padding: 80px var(--PADDING-SIDE) 0px var(--PADDING-SIDE);
-    
-    
 }
 
 .main__p1 {
@@ -109,12 +107,11 @@ a {
     color: #FFF;
     font-weight: bold;
     border: none;
-
 }
 
 .main__section2 {
     height: 480px;
-    width: 550px;
+    width: 36%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -144,27 +141,35 @@ a {
     height: 480px;
     background-size: 350px 460px;
     background-repeat: no-repeat;
-    
-    
 }
 
 .circle {
     position: fixed;
-    /* margin: 100px 0px 10px 500px; */
     height: 80rem;
     width: 80rem;
     border-radius: 50%;
     background-color: #00704A;
-    /* background-color: rgb(213, 0, 199);
-    background-color: rgb(190, 145, 63); */
     bottom: 0;
     right: 0;
     transform: translate(48%, 58%);
     z-index: -1;
 }
 
+.main__section3 {
+    width: 16%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.main__section3 div {
+    cursor: pointer;
+}
+
 .main__menu_article {
-    
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -179,25 +184,18 @@ a {
 }
 
 .main__menu_article div:hover {
-    
     transition-duration: 0.5s;
     transform: translateY(-15px);
-    /* margin-top: -15px; */
 }
 
 
 .green_cup img {
-    
     width: 50px;
     height: 75px;
-    
-    
 }
 .pink_cup img {
     width: 40px;
     height: 75px;
-    
-    
 }
 .caramel_cup img {
     width: 60px;
